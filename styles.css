@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+body::webkit-scrollbar {
+    display: none;
+}
+
+/* Homepage Style */
+
+#main-introduction {
+    background-color: black;
+    height: 100vh;
+    width: 100wh;
+}
+
+.main-navbar {
+    position: fixed;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.main-navbar-link {
+    
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.main-scroller {
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    height: 200px;
+    width: 20px;
+    margin-top: 50%;
+}
+
+.Hello {
+    font-size: 200px;
+    font-family: Segoe UI;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 1px;
+}
+
+h1 {
+    font-family: Segoe UI;
+    color: white;
+}
+
+
+/* Theater styling */
+
+.theater-navbar {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.theater-navbar-link {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.blinds-top {
+    background-color: red;
+    height: 160px;
+    width: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blinds-top-left {
+    background-color: red;
+    height: 200px;
+    width: 30%;
+    border-bottom-left-radius: 50%;
+}
+
+.blinds-top-right {
+    background-color: red;
+    height: 200px;
+    width: 30%;
+    border-bottom-right-radius: 50%;
+}
+
+.blinds-right {
+    
+}
+
+.blinds-right > div {
+    background-color: red;
+    height: 500px;
+    width: 100px;
+    display: inline-block;
+}
+
+.b1a {
+    border-bottom-right-radius: 48%;
+    margin: 10px;
+}
+
+.b1b {
+    border-bottom-left-radius: 48%;
+    margin: 10px;
+}
+
+.blinds-left {
+    
+}
+
+.blinds-left > div {
+    background-color: red;
+    height: 500px;
+    width: 40px;
+    display: inline-block;
+}
+
+.b2a {
+
+}
+
+.gallery {
+    z-index: -4;
+}
+
+/* Lab styling */
+
+.Lab-navbar {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.Lab-navbar-link {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+
+
+/*  */
