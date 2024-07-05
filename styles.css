@@ -10,6 +10,22 @@ body::webkit-scrollbar {
     display: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#footer-easteregg > footer:hover {
+    color: red;
+}
+
 /* Homepage Style */
 
 #main-introduction {
@@ -21,13 +37,14 @@ body::webkit-scrollbar {
 .main-navbar {
     position: fixed;
     background-color: black;
-    height: 50px;
+    height: 80px;
     width: 100%;
+    margin-left: -8px;
 }
 
 .main-navbar-link {
     
-    display: inline;
+    display: inline-flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-decoration: none;
@@ -37,11 +54,23 @@ body::webkit-scrollbar {
 }
 
 .main-scroller {
-    background-color: rgb(37, 37, 37);
+    display: inline-block;
     position: fixed;
     height: 200px;
     width: 20px;
-    margin-top: 50%;
+    margin-top: 400px;
+}
+
+.main-scroller > a {
+    font-family: Tahoma;
+    font-size: 50px;
+    color: rgba(37, 37, 37, 0.39);
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+
+.main-scroller > a:hover {
+    color: rgba(255, 255, 255, 0.39);
 }
 
 .Hello {
@@ -49,12 +78,60 @@ body::webkit-scrollbar {
     font-family: Segoe UI;
     color: white;
     margin-left: 40px;
-    margin-bottom: 1px;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-family: Segoe UI;
     color: white;
+}
+
+#main-abouts > p {
+    font-size: 20px;
+    font-family: Segue UI;
+    color: white;
+}
+
+#main-abouts > div > p {
+    font-size: 20px;
+    font-family: Segue UI;
+    color: white;
+}
+
+#abouts-entrance {
+    font-family: Cascadia Code;
+    font-size: 20px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+#abouts-entrance > p {
+    
+}
+
+#fg1 {
+    height: 200px;
+}
+
+#cooking-culinary {
+    background-color: rgb(175, 206, 0);
+    height: 888px;
+    width: 100%;
+}
+
+#cooking-culinary > h1 {
+    font-size: 50px;
+}
+
+#contact-links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+}
+
+#contact-links > div > a {
+    color: white;
+    text-decoration: none;
 }
 
 
